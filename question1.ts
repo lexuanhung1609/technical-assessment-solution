@@ -39,5 +39,5 @@ class MyDigitRandomGenerator implements DigitRandomGenerator {
   }
 }
 
-const DigitRandomGen = new MyDigitRandomGenerator(50);
+const DigitRandomGen = new MyDigitRandomGenerator(100);
 console.log(DigitRandomGen.generateDigit());
